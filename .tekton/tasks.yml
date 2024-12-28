@@ -33,11 +33,6 @@ spec:
           # Delete files and directories starting with .. plus any other character
           rm -rf "${WORKSPACE_SOURCE_PATH}"/..?*
         fi
-    - name: nose
-      image: python:3.9-slim
-      env:
-        - name: args
-          value: 
 
 
 ---
